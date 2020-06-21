@@ -134,7 +134,7 @@ function build_ci_images::main() {
   #export DOCKER_BASE=${DOCKER_REGISTRY}/${TRAVIS_REPO_SLUG#*/}
   # Build server
   
-  export DOCKER_BASE=${TRAVIS_REPO_SLUG}
+  export DOCKER_BASE=${TRAVIS_REPO_SLUG}'-arm'
   cp $DOCKERFILE Dockerfile.multi-arch
   build_ci_images::build_and_push_all
   build_ci_images::test_all
