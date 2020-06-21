@@ -2,6 +2,8 @@ helm-docs
 =========
 [![Go Report Card](https://goreportcard.com/badge/github.com/norwoodj/helm-docs)](https://goreportcard.com/report/github.com/norwoodj/helm-docs)
 
+This is a fork from [norwoodj/helm-docs](https://github.com/norwoodj/helm-docs.git)
+
 The helm-docs tool generates automatic documentation from helm charts into a markdown file. The resulting
 file contains metadata about the chart and a table with all of your charts' values, their defaults, and an
 optional description parsed from comments.
