@@ -7,7 +7,7 @@ os: linux
 env:
   global:
   - TRAVIS_SECURE_ENV_VARS=true
-  - DOCKER_PLATFORMS='linux/arm64 linux/arm/v8 linux/arm/v7'
+  - DOCKER_PLATFORMS='linux/arm64/v8 linux/arm/v7'
   - DOCKERFILE='Dockerfile'
   - TAGS='latest'
   - secure: TlD6/2/IiPpGQ6vD3xfKcfWxbVFvnDT+yZFqaEY3K/MMBJKL9st1xuEbvDkSa18ZHSaiVX47k2dt8PzvLDQU7sy+lHHRAiC2NPLfrMD4E1JFB3+ltLbJPxpYi0P3dtXSVjCpxEIvjJb7HGcg30+/5r5fRY9XtUqN2kAqUXGmxD++DcLoGEizAs6kx+BQ0/fcp5JHTGuvrbn/fuAYgKTlbQP9vv4MIg2F7MQPe8MvZUKialmfoFq4WbW/e5nhix1xlJX8THs6J0T/8CClyJqcdFVp/g18AaP8tJZjpqCF0qAB5Qwf32RlQvqncUm1tBQ1q2aqg5h4LpGeG8Vc1IFi1nIOlMUCItF0HnL0UVntAEVbLMKrNDWBvp83hvsxRmX8W+TbMl9rwZM5l1UYFKwVSEmI8zKI/ms/E7nLB9clwGPeU+9oCUci9q1p//GGEZrH89fgAA6upr5cVWzabneFcxULELC2C6cy2hmTrrgmP5TrGr9gg+ghozaEM+hSTAtcDpETli+t+nkTcHQa5XaLpRu+2mgf85t+nCy23tGAofyKuKB66/uF2Xxjxi81I8NhD7e/Jeh6AIeF6el31wkWr7PGESOwMt18a2vp5jO21Kf6R8QjC0hmsDNjjJzOBZoIJPAp7Iv/9Vwx8Gdl0M4g0/WqT2smV7nQW3hSq4P+IZE=
